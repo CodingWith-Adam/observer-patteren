@@ -1,4 +1,4 @@
-export default class PlayerControllerSubject {
+export default class PlayerControlSubject {
   observers = [];
 
   registerObserver(observer) {

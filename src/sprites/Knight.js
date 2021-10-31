@@ -13,7 +13,7 @@ export default class Knight extends Player {
       PlayerStates.attack
     );
     this.jumpAnimation = new SpriteAnimation(
-      `${this.baseUrl}/jump (?).png`,
+      `${this.baseUrl}/Jump (?).png`,
       10,
       6,
       PlayerStates.jump

@@ -1,5 +1,7 @@
 # Observer Pattern
 
+![alt text](images/observer_cover.png)
+
 YouTube Link:
 (coming soon)
 

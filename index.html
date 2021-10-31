@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animations</title>
+    <style>
+      body {
+        background-color: rgb(49, 48, 48);
+        overflow: hidden;
+        text-align: center;
+      }
+      canvas {
+        border: 1px solid black;
+      }
+
+      .button-group {
+        position: absolute;
+        top: 20px;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+      }
+
+      button {
+        color: black;
+        background-color: grey;
+
+        box-shadow: 10px 10px 10px black;
+        width: 150px;
+        height: 65px;
+        font-size: 2em;
+        margin-right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-group">
+      <button id="idle-button">Idle</button>
+      <button id="run-button">Run</button>
+      <button id="jump-button">Jump</button>
+      <button id="dead-button">Dead</button>
+      <button id="attack-button">Attack</button>
+    </div>
+    <canvas id="game"></canvas>
+    <script src="src/index.js" type="module"></script>
+  </body>
+</html>

@@ -12,7 +12,7 @@ const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 canvas.width = 2000 / 1.5;
 canvas.height = 1143 / 1.5;
-const background = img("bg.png");
+const background = img("BG.png");
 const y = 450;
 
 //Define our subject

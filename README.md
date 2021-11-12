@@ -3,7 +3,7 @@
 ![alt text](images/observer_cover.png)
 
 YouTube Link:
-(coming soon)
+https://youtu.be/cR8P1HZAyP8
 
 In this exciting tutorial we are going to learn about the observer pattern. Not your typical observer pattern tutorial, We toss the wikipedia article aside and apply the observer pattern to a simple game.
 
